@@ -6,9 +6,9 @@ public class Dog {
 
     String color;
 
-    Breed breed;
+    String breed;
 
-    public Dog(int size, String color, Breed breed) {
+    public Dog(int size, String color, String breed) {
         this.size = size;
         this.color = color;
         this.breed = breed;
