@@ -4,11 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Breed {
-
-    List<String> breedTypes;
+    List<String> breedTypes = new ArrayList<>();
 
     public void initBreedTypes() {
-        breedTypes = new ArrayList<String>();
         breedTypes.add("boxer");
         breedTypes.add("pit bull");
         breedTypes.add("corgi");
